@@ -15,6 +15,94 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
+
+(a). Open your web browser and navigate to the [official Visual Studio Code website](https://code.visualstudio.com/).
+(b). Click on the Download for Windows button. This will download the VSCode installer (VSCodeUserSetup-x64-x.y.z.exe, where x.y.z is the version number).
+
+ Install VSCode
+
+1. Locate the downloaded installer in your Downloads folder and double-click to run it.
+2. Follow the installation wizard:
+   - Accept the License Agreement.
+   - Select Destination Location: By default, it installs to C:\Users\<Your Username>\AppData\Local\Programs\Microsoft VS Code.
+   - Select Start Menu Folder: Leave the default or customize it.
+   - Select Additional Tasks: It's recommended to check the following options:
+     - Create a desktop icon.
+     - Add "Open with Code" action to Windows Explorer file context menu.
+     - Add "Open with Code" action to Windows Explorer directory context menu.
+     - Register Code as an editor for supported file types.
+     - Add to PATH (this allows you to open VSCode from the command line).
+   - Click Install to begin the installation process.
+
+### Step 3: Launch VSCode
+
+1. Once the installation is complete, ensure the option to Launch Visual Studio Code is checked and click Finish.
+2. VSCode will open, displaying a welcome screen with various options and tips.
+
+### Step 4: Customize VSCode
+
+#### Installing Extensions
+
+Extensions enhance the functionality of VSCode. Common extensions include:
+
+1. Python:
+   - Open the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing Ctrl+Shift+X.
+   - Search for "Python" and click Install on the official Python extension by Microsoft.
+
+2. C/C++:
+   - Search for "C/C++" and install the extension by Microsoft.
+
+3. ESLint (for JavaScript/TypeScript):
+   - Search for "ESLint" and install the extension by Dirk Baeumer.
+
+4. Prettier (code formatter):
+   - Search for "Prettier - Code formatter" and install the extension by Prettier.
+
+#### Configuring Settings
+
+1. Open Settings:
+   - Go to File > Preferences > Settings or press Ctrl+,.
+
+2. Common Settings:
+   - Font Size: Adjust by searching for Editor: Font Size.
+   - Theme: Change the color theme by searching for Color Theme and selecting your preferred theme.
+   - Auto Save: Enable auto-save by searching for Files: Auto Save and setting it to afterDelay.
+
+#### Configuring Python
+
+1. Interpreter:
+   - Press Ctrl+Shift+P to open the Command Palette.
+   - Type Python: Select Interpreter and choose the appropriate Python interpreter.
+
+2. Linting:
+   - Open settings (Ctrl+,) and search for Linting.
+   - Enable Python > Linting: Enabled and select your preferred linter (e.g., Pylint).
+
+### Step 5: Troubleshooting
+
+#### Common Issues
+
+1. Extensions Not Installing:
+   - Ensure you have a stable internet connection.
+   - Check for any proxy settings that might be blocking access.
+
+2. Python Interpreter Not Found:
+   - Ensure Python is installed and added to your system PATH.
+   - Verify by running python --version in a command prompt.
+
+3. Code Not Running:
+   - Check the integrated terminal settings.
+   - Ensure the correct interpreter or compiler is selected.
+
+### Step 6: Finalize Setup
+
+1. Open a Project Folder:
+   - Go to File > Open Folder and select your project directory.
+
+2. Version Control:
+   - If using Git, ensure it's installed and configured.
+   - Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G.
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
