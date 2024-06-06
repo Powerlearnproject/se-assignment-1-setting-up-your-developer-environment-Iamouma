@@ -13,17 +13,112 @@ This assignment aims to familiarize you with the tools and configurations necess
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
+   
+
+Check System Requirements
+
+Before downloading and installing Windows 11, ensure that your system meets the minimum requirements:
+
+- Processor: 1 gigahertz (GHz) or faster with at least 2 cores on a compatible 64-bit processor or System on a Chip (SoC)
+- RAM: 4 GB or more
+- Storage: 64 GB or larger storage device
+- System Firmware: UEFI, Secure Boot capable
+- TPM: Trusted Platform Module (TPM) version 2.0
+- Graphics Card: DirectX 12 compatible graphics / WDDM 2.x
+- Display: >9” with HD Resolution (720p)
+- Internet Connection: Internet connectivity is necessary to perform updates and to download and take advantage of some features.
+
+Backup Your Data
+
+It's important to back up your data before installing a new operating system. You can use an external hard drive, cloud storage, or another backup solution to save your important files.
+
+Download Windows 11
+
+(1). Visit the Windows 11 Download Page:
+   - Go to the [Windows 11 download page](https://www.microsoft.com/software-download/windows11).
+
+(2). Choose Your Download Option:
+   - You can either create installation media (USB flash drive or DVD) or download an ISO file.
+   - For this guide, we’ll focus on creating a bootable USB drive.
+
+(3). Download the Media Creation Tool:
+   - Click on Download now under "Create Windows 11 Installation Media".
+   - Run the Media Creation Tool once downloaded.
+
+Create Installation Media
+
+(1). Run the Media Creation Tool:
+   - Accept the license terms.
+   - Select Create installation media (USB flash drive, DVD, or ISO file) for another PC, then click Next.
+
+(2). Select Language, Edition, and Architecture:
+   - Choose your language, edition, and architecture (64-bit).
+
+(3). Choose USB Flash Drive:
+   - Select USB flash drive and click Next.
+   - Insert a USB flash drive with at least 8 GB capacity and select it from the list, then click Next.
+
+(4). Download and Create Media:
+   - The tool will download Windows 11 and create the installation media on your USB drive. This may take some time.
+
+Install Windows 11
+
+(1). Boot from the USB Drive:
+   - Insert the USB flash drive into the computer where you want to install Windows 11.
+   - Restart the computer and boot from the USB drive. This usually involves pressing a key (such as F2, F12, Delete, or Esc) immediately after turning on the computer to enter the boot menu.
+
+(2). Begin Installation:
+   - Select your language, time, and keyboard preferences, then click Next.
+   - Click Install now.
+
+(3). Enter Product Key:
+   - If you have a Windows 11 product key, enter it. Otherwise, select I don’t have a product key and proceed (you can activate Windows later).
+
+(4). Select Edition:
+   - Choose the edition of Windows 11 that you want to install and click Next.
+
+(5). Accept License Terms:
+   - Read and accept the license terms, then click Next.
+
+(6). Choose Installation Type:
+   - Select Custom: Install Windows only (advanced) for a clean installation.
+
+(7). Select Partition:
+   - Choose the partition where you want to install Windows 11. If you're doing a clean install, you may want to delete existing partitions (this will erase all data on those partitions) and create new ones.
+   - Click Next to start the installation.
+
+(8). Complete Installation:
+   - Windows 11 will install, and your computer will restart several times during the process.
+   - Follow the on-screen instructions to set up your preferences and create a user account.
+
+Post-Installation Setup
+
+(1). Install Updates:
+   - Once Windows 11 is installed, check for updates by going to Settings > Windows Update and installing any available updates.
+
+(2). Install Drivers:
+   - Install the necessary drivers for your hardware components. Most drivers will be automatically detected, but you may need to manually download some from the manufacturer’s website.
+(3). Restore Data:
+   - Restore your backed-up data to your new Windows 11 installation.
+
+(4). Install Applications:
+   - Reinstall your applications and configure your development environment as needed.
+
+
+
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
 
 (a). Open your web browser and navigate to the [official Visual Studio Code website](https://code.visualstudio.com/).
+
 (b). Click on the Download for Windows button. This will download the VSCode installer (VSCodeUserSetup-x64-x.y.z.exe, where x.y.z is the version number).
 
  Install VSCode
 
-1. Locate the downloaded installer in your Downloads folder and double-click to run it.
-2. Follow the installation wizard:
+(1). Locate the downloaded installer in your Downloads folder and double-click to run it.
+
+(2). Follow the installation wizard:
    - Accept the License Agreement.
    - Select Destination Location: By default, it installs to C:\Users\<Your Username>\AppData\Local\Programs\Microsoft VS Code.
    - Select Start Menu Folder: Leave the default or customize it.
@@ -35,76 +130,85 @@ This assignment aims to familiarize you with the tools and configurations necess
      - Add to PATH (this allows you to open VSCode from the command line).
    - Click Install to begin the installation process.
 
-### Step 3: Launch VSCode
+Launch VSCode
 
-1. Once the installation is complete, ensure the option to Launch Visual Studio Code is checked and click Finish.
-2. VSCode will open, displaying a welcome screen with various options and tips.
+(1). Once the installation is complete, ensure the option to Launch Visual Studio Code is checked and click Finish.
 
-### Step 4: Customize VSCode
+(2). VSCode will open, displaying a welcome screen with various options and tips.
 
-#### Installing Extensions
+Customize VSCode by installing extensions
+
 
 Extensions enhance the functionality of VSCode. Common extensions include:
 
-1. Python:
+(1). Python:
    - Open the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing Ctrl+Shift+X.
    - Search for "Python" and click Install on the official Python extension by Microsoft.
 
-2. C/C++:
+(2). C/C++:
    - Search for "C/C++" and install the extension by Microsoft.
 
-3. ESLint (for JavaScript/TypeScript):
+(3). ESLint (for JavaScript/TypeScript):
    - Search for "ESLint" and install the extension by Dirk Baeumer.
 
-4. Prettier (code formatter):
+(4). Prettier (code formatter):
    - Search for "Prettier - Code formatter" and install the extension by Prettier.
 
-#### Configuring Settings
+Configuring Settings
 
-1. Open Settings:
+(1). Open Settings:
    - Go to File > Preferences > Settings or press Ctrl+,.
 
-2. Common Settings:
+(2). Common Settings:
    - Font Size: Adjust by searching for Editor: Font Size.
    - Theme: Change the color theme by searching for Color Theme and selecting your preferred theme.
    - Auto Save: Enable auto-save by searching for Files: Auto Save and setting it to afterDelay.
+Configuring Python
 
-#### Configuring Python
-
-1. Interpreter:
+(1). Interpreter:
    - Press Ctrl+Shift+P to open the Command Palette.
    - Type Python: Select Interpreter and choose the appropriate Python interpreter.
 
-2. Linting:
+(2). Linting:
    - Open settings (Ctrl+,) and search for Linting.
    - Enable Python > Linting: Enabled and select your preferred linter (e.g., Pylint).
 
-### Step 5: Troubleshooting
+Troubleshooting
 
-#### Common Issues
-
-1. Extensions Not Installing:
+(1). Extensions Not Installing:
    - Ensure you have a stable internet connection.
    - Check for any proxy settings that might be blocking access.
 
-2. Python Interpreter Not Found:
+(2). Python Interpreter Not Found:
    - Ensure Python is installed and added to your system PATH.
    - Verify by running python --version in a command prompt.
 
-3. Code Not Running:
+(3). Code Not Running:
    - Check the integrated terminal settings.
    - Ensure the correct interpreter or compiler is selected.
 
-### Step 6: Finalize Setup
+Finalize Setup
 
-1. Open a Project Folder:
+(1). Open a Project Folder:
    - Go to File > Open Folder and select your project directory.
 
-2. Version Control:
+(2). Version Control:
    - If using Git, ensure it's installed and configured.
    - Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G.
+
+(3). Workspace Settings:
+   - Configure workspace-specific settings by opening the settings (Ctrl+,), switching to the Workspace tab, and adjusting as needed.
+
+Explore and Enhance
+
+(1). Explore Built-in Features:
+   - Utilize IntelliSense, debugging, and integrated terminal.
+
+(2). Install Additional Extensions:
+   - Explore the Extensions marketplace for more tools relevant to your workflow.
+
 3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com.
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
