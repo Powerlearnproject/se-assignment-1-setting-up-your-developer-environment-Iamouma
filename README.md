@@ -10,7 +10,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 #Tasks:
 
-1. Select Your Operating System (OS):
+# 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
    
@@ -106,7 +106,7 @@ Post-Installation Setup
 
 
 
-2. Install a Text Editor or Integrated Development Environment (IDE):
+# 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
 
@@ -207,7 +207,7 @@ Explore and Enhance
 (2). Install Additional Extensions:
    - Explore the Extensions marketplace for more tools relevant to your workflow.
 
-3. Set Up Version Control System:
+# 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com.
 
 
@@ -316,7 +316,7 @@ Link Your Local Repository to GitHub
 
 
 
-4. Install Necessary Programming Languages and Runtimes:
+# 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
   
@@ -356,7 +356,7 @@ Verify Python Installation
 
 
 
-5. Install Package Managers:
+# 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
    Install Necessary Python Packages
@@ -413,7 +413,7 @@ Test Your Setup
      
    - You should see Hello, Python! printed in the terminal.
 
-6. Configure a Database (MySQL):
+# 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
 
 Download MySQL Installer
@@ -504,7 +504,7 @@ Install MySQL Workbench (Optional but Recommended)
    - Test the connection to ensure everything is working correctly.
 
 
-7. Set Up Development Environments and Virtualization (Optional):
+# 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
    
@@ -624,7 +624,7 @@ Manage Docker Containers
      
    - Replace <container_id> with the actual container ID from the docker ps output.
 
-8. Explore Extensions and Plugins:
+# 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
    Extensions enhance the functionality of VSCode. Common extensions include:
@@ -662,7 +662,7 @@ Configuring Python
    - Enable Python > Linting: Enabled and select your preferred linter (e.g., Pylint).
 
 
-9. Document Your Setup:
+# 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
 
 #Deliverables:
